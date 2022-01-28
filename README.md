@@ -12,6 +12,15 @@ And how the results will look like on server
  * Nekolik Commitu v LB
  * potom to dostat nejak do master jako jeden commit
 
+Git commandline
+    git checkout master
+    (tady asi udelat git pull?)
+    git merge --squash yourBranch
+    git commit
+
+Stejne mi to vytvori merge branchmaster commit automaticky
+
+
 
 ## Neco Dalsiho 
 
