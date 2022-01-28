@@ -13,8 +13,12 @@ And how the results will look like on server
  * potom to dostat nejak do master jako jeden commit
 
 Git commandline
+
+    #napred to vsechno commitovat do vetve 
+    git checkout -b novevetevname
+    
     git checkout master
-    (tady asi udelat git pull?)
+    #(tady asi udelat git pull?)
     git merge --squash yourBranch
     git commit
 
