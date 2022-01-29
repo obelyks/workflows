@@ -63,6 +63,13 @@ Jde se vubec nejak zbavit merge commitu?
             neni: je to stejne, jenom nenabizi pri commitu po squash vsechny commit
                  messages: ale zase jsou videt v graficke historii (git log)
     2. merge
+        - stejne pripravit pripad jako pro rebase
+            -vetev->comitnavetvi->comit+pushnamainu->commit na vetvi
+        -----
+        udelat merge z origin/master (zase abych nemulel fetchovat a delat to z lokalniho msteru)
+        comitnout ten merge do vetve
+        prepnout se do masteru a udelat squishe merge + comit +push
+
 
 
 ## Konec
