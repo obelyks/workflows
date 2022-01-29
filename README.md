@@ -54,12 +54,14 @@ Jde se vubec nejak zbavit merge commitu?
         - zmeny na main/commit/push
         - zmeny na vetvi/commit
         ---
-        - rebase na vetvi / po rebase s commit nedela!!!
+        - rebase na vetvi (z origin/master: nemusi predtim delat fetch) / po rebase s commit nedela!!!
         - prepnuti na main / pull (melo by tam byt cisto!)
         - merge rebasenute vetve do mainu pres merge(suqash)+comit+push
         -a tedka tam ten merge branch commit neni
         TOsame pres INTELLIJ jestl neni zbytecne chytra a necaje prikazy si tam neprida sama!
             a taky by me zajimalo jak zvlada ty squash merge-treba to bude lepsi
+            neni: je to stejne, jenom nenabizi pri commitu po squash vsechny commit
+                 messages: ale zase jsou videt v graficke historii (git log)
     2. merge
 
 
