@@ -25,6 +25,10 @@ Git commandline
 Stejne mi to vytvori merge branchmaster commit automaticky
 
 
+Jde se vubec nejak zbavit merge commitu?
+    
+    Merge branch 'master' of https://github.com/obelyks/workflows
+
 
 ## Neco Dalsiho 
 
