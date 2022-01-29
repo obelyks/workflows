@@ -54,9 +54,10 @@ Jde se vubec nejak zbavit merge commitu?
         - zmeny na main/commit/push
         - zmeny na vetvi/commit
         ---
-        - rebase na vetvi / commit????? delat se comit po rebase??? TODO prozkoumat no-ff flag u merge!
-        - prepnuti na main
-        - merge rebasenute vetve do mainu pres merge+comit+push
+        - rebase na vetvi / po rebase s commit nedela!!!
+        - prepnuti na main / pull (melo by tam byt cisto!)
+        - merge rebasenute vetve do mainu pres merge(suqash)+comit+push
+        -a tedka tam ten merge branch commit neni
     2. merge
 
 
