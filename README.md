@@ -58,6 +58,8 @@ Jde se vubec nejak zbavit merge commitu?
         - prepnuti na main / pull (melo by tam byt cisto!)
         - merge rebasenute vetve do mainu pres merge(suqash)+comit+push
         -a tedka tam ten merge branch commit neni
+        TOsame pres INTELLIJ jestl neni zbytecne chytra a necaje prikazy si tam neprida sama!
+            a taky by me zajimalo jak zvlada ty squash merge-treba to bude lepsi
     2. merge
 
 
