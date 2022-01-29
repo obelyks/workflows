@@ -67,4 +67,6 @@ Jde se vubec nejak zbavit merge commitu?
 
 ## Konec
     Ten rebase pres cmd line funguje jak chci
+    Merge by mela teoreticky mit o jeden comit navic v lokalni vetvi: a v masteru
+    uz vypadat stejne jako rebase pripad
 
