@@ -47,7 +47,7 @@ Jde se vubec nejak zbavit merge commitu?
     git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
 
 
-# Pokus s rebase vs merge na lokalni vetvi
+## Pokus s rebase vs merge na lokalni vetvi
     1. rebase
         - udelat vetev
         - zmeny na vetvi/commit
@@ -70,6 +70,27 @@ Jde se vubec nejak zbavit merge commitu?
         comitnout ten merge do vetve
         prepnout se do masteru a udelat squishe merge + comit +push
 
+## Stash a shelve/f
+defaultne to ty  ulozene veci nemaze/ale to ani stash kdyz ho pouzivam pres UI
+asi pouzije apply misto pop  resp POP STASH checkbox neni puvodne zaskrtnuty
+* Shelve je od intellij a vubec neni neni v gitu (funkce je podobna)
+
+###git stash
+Tohle by mohlo asi vyresit problemy z lokalnima zmenama ktere nechci komitovat ani mergovat!
+muzu je mit v jinem changelistu, ale stejne je radsi stashovat pred pullem
+nebo jenom jestli mi zahlasi ze tam nejaky problem je!!!
+
+
+* git stash push .. ulozi tracked files nekam k pozdejsimu pouziti
+                    .. a dalsi a dalsi a dalsi za sebou
+* git stash pop .. vyvola zmeny a vymaze
+* git stash push -m jmenoslotu   ... asi ale funguje stejne a pri pop se vyvola kdyz je narade(vyzkouset)
+* git stash ... bez niceho je jako "git stash push"
+* git stash apply cislo.... aplikuje z historie ale necha ji tam
+* git stash pop cislo... vyberu si ktery slot ale ten smaze
+* git stash list
+* git stash show ... list of files -p taky preview co v nich je
+* --all  ... i untracked files se ulozi
 
 
 ## Konec
