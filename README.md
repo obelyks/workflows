@@ -77,3 +77,7 @@ Jde se vubec nejak zbavit merge commitu?
     Merge by mela teoreticky mit o jeden comit navic v lokalni vetvi: a v masteru
     uz vypadat stejne jako rebase pripad
 
+    Merge je horsi protoze mi tam nefungovalo git merge origin/master
+    kdyz se master zmenil jinde, ani pres command line ani pres klikani v intellij
+    proc? mozna to opravi nejake nastaveni ????
+
