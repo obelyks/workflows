@@ -62,4 +62,5 @@ Jde se vubec nejak zbavit merge commitu?
 
 
 ## Konec
+    Ten rebase pres cmd line funguje jak chci
 
