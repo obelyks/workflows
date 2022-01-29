@@ -47,5 +47,18 @@ Jde se vubec nejak zbavit merge commitu?
     git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
 
 
+# Pokus s rebase vs merge na lokalni vetvi
+    1. rebase
+        - udelat vetev
+        - zmeny na vetvi/commit
+        - zmeny na main/commit/push
+        - zmeny na vetvi/commit
+        ---
+        - rebase na vetvi / commit????? delat se comit po rebase??? TODO prozkoumat no-ff flag u merge!
+        - prepnuti na main
+        - merge rebasenute vetve do mainu pres merge+comit+push
+    2. merge
+
+
 ## Konec
 
